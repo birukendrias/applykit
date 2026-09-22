@@ -1,0 +1,49 @@
+:root {
+  --paper: #e7e5e1;
+  --ink: #141414;
+  --accent: #1f6b4a;
+  --line: #c8c4bc;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.5;
+}
+header, main, footer { width: min(720px, 92vw); margin: 0 auto; padding: 0 0 1rem; }
+header { padding-top: 2.5rem; }
+.brand {
+  font-family: Georgia, "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+.tag { margin: 0.35rem 0 0; color: #3a3a3a; }
+label { display: block; font-size: 0.85rem; margin: 1rem 0 0.35rem; font-weight: 600; }
+input, textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: #f4f2ee;
+  color: var(--ink);
+  padding: 0.7rem 0.9rem;
+  font: inherit;
+}
+button {
+  margin-top: 0.75rem;
+  border: none;
+  background: var(--accent);
+  color: #f5f5f0;
+  padding: 0.65rem 1.1rem;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+button.ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+footer { padding: 2rem 0; font-size: 0.85rem; }
+footer a { color: var(--accent); }

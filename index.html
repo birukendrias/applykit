@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>applykit — tailored outreach</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <p class="brand">applykit</p>
+    <p class="tag">Job post in. Outreach draft and matched bullets out.</p>
+  </header>
+  <main>
+    <label for="name">Your name</label>
+    <input id="name" value="Biruk Endrias" />
+    <label for="title">Title</label>
+    <input id="title" value="Senior Full Stack Developer" />
+    <label for="cv">CV blurb / strengths</label>
+    <textarea id="cv" rows="6">Lead at Meleket. Laravel, Vue, Flutter, Chapa payments, Docker, Redis. Six years shipping production web and mobile systems from Addis Ababa.</textarea>
+    <label for="jd">Job description</label>
+    <textarea id="jd" rows="10" placeholder="Paste the job post…"></textarea>
+    <button type="button" id="run">Generate</button>
+    <label for="out">Draft</label>
+    <textarea id="out" rows="14" readonly></textarea>
+    <button type="button" id="copy" class="ghost">Copy</button>
+  </main>
+  <footer>
+    <a href="https://github.com/biruktk/applykit">GitHub</a>
+    ·
+    <a href="https://iambiruk.vercel.app">IAMBIRUK</a>
+  </footer>
+  <script src="applykit.js"></script>
+</body>
+</html>
