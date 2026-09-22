@@ -20,4 +20,4 @@ python3 applykit.py --jd job.txt --cv cv_blurb.txt
 
 ## Author
 
-Biruk Endrias — https://iambiruk.vercel.app
+Biruk Endrias — https://iambiruk.com
